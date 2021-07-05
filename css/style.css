@@ -1,0 +1,195 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: #f5b4b3;
+  font-size: 1.5rem;
+}
+
+.logo_image {
+  width: 110px;
+  margin: 0;
+  float: left;
+}
+.top_menu li {
+  float: left;
+  width: auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul.top_menu {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+li {
+  list-style: none;
+}
+
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+
+.image_area {
+  width: 100%;
+}
+.side_menu li {
+  background-color: #f5b4b3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+
+.side_menu li:hover {
+  opacity: 0.6;
+}
+
+.side_menu li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.side_menu {
+  width: 300px;
+  float: left;
+}
+.content {
+  float: left;
+  margin-left: 20px;
+  width: 660px;
+  font-size: 1.5rem;
+}
+.wrapper {
+  margin-top: 10px;
+}
+.news {
+  height: 200px;
+  padding: 20px;
+  background-color: #fce8e7;
+  line-height: 2;
+  overflow: scroll;
+}
+.footer {
+  background-color: #4d4d4d;
+  height: 100px;
+  width: 980px;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+.footer p {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+  color: #fff;
+  display: table-cell;
+}
+.article_banner {
+  margin-top: 10px;
+}
+
+.article_banner ul {
+  display: table;
+  width: 100%;
+}
+
+.article_banner ul li {
+  display: table-cell;
+  width: 50%;
+}
+.article_banner ul li img {
+  width: 100%;
+}
+.point {
+  background-color: #fcecec;
+  color: #4d4d4d !important;
+}
+.point a {
+  color: #4d4d4d;
+}
+
+/*table CSS */
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** Spécification duu boutton (corretion) */
+button {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #008b8b;
+  border: none;
+  padding: 10px;
+}
+button:hover {
+  opacity: 0.5;
+}
+.contact tr {
+  height: 7rem;
+}
+.contact th {
+  width: 150px;
+  text-align: end;
+  padding-right: 10px;
+}
+.contact td {
+  width: 480px;
+}
+.contact td div {
+  border: 1px solid black;
+  margin: 20px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 0;
+}
+.contact tr:last-child td div {
+  height: 50px;
+}
+
+.sexe_list {
+  display: table;
+}
+.sexe_list li {
+  display: table-cell;
+  padding-right: 10px;
+}
